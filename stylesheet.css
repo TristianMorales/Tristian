@@ -1,0 +1,197 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+img {
+  animation: fadeIn 2s;
+}
+
+
+.navbar {
+  background-color: rgb(67, 57, 61);
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 22px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Default link color */
+.navbar a {
+  color: rgb(213, 162, 141);
+}
+
+/* Hover link color */ 
+.navbar a:hover {
+  color: rgb(215, 228, 194);
+}
+
+/* Active link color */
+.navbar a.active {
+  color: rgb(215, 228, 194);
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center; 
+}
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 900px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.centered h1 {
+  color: #ffffff; 
+}
+
+.centered h2 {
+  color: #f50808;  
+}
+
+.centered h1, 
+.centered h2 {
+  margin: 0;
+}
+
+footer {
+  position: relative;
+  background-color: rgb(67, 57, 61);
+  color: #fff;
+  padding: 20px;
+  text-align: left;
+}
+
+footer p {
+  margin: 0; 
+}
+
+footer {
+  display: grid; 
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.footer-logo {
+  margin-right: 0px;
+}
+
+@font-face {
+  font-family: 'majesti-banner';
+  src: url('Root/CSS/Majesti-Banner-Book.otf') format('otf'); 
+}
+
+h1 {
+  font-family: 'majesti-banner', sans-serif;
+  color: rgb(213, 162, 141); 
+}
+
+h2 {
+  font-family: 'majesti-banner', sans-serif;
+  color: rgb(213, 162, 141); 
+}
+
+@font-face {
+  font-family: 'athelas';
+  src: url('Root/CSS/Athelas-Regular.ttf') format('ttf'); 
+}
+
+p {
+  font-family: 'athelas', sans-serif;
+  color: rgb(213, 162, 141); 
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  color: #ffffff;
+  margin-bottom: 00px;
+  font-size: 28px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 5;
+  font-size: 28px;
+  align-content: center;
+  color: #f2f2f2;
+}
+
+li {
+  line-height: 1.5;
+  margin-bottom: 0px;
+  color: #f2f2f2;
+}
+
+.image-container {
+  position: relative;
+}
+
+.appetizer-img {
+  max-width: 100%;
+  transition: transform 0.1s; 
+}
+
+.dim-img {
+  max-width: 100%;
+  transition: transform 0.1s; 
+}
+
+.entrees-img {
+  max-width: 100%;
+  transition: transform 0.1s; 
+}
+
+.drinks-img {
+  max-width: 100%;
+  transition: transform 0.1s; 
+}
+
+.appetizer-img:hover {
+  transform: scale(1.1);
+}
+
+.dim-img:hover {
+  transform: scale(1.1);
+}
+
+.entrees-img:hover {
+  transform: scale(1.1);
+}
+
+.drinks-img:hover {
+  transform: scale(1.1);
+}
+
+/*start of concept tab*/
+
+.vision-img {
+  display: flex;
+  justify-content: center;
+  display: block;
+}
